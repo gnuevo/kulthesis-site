@@ -1,0 +1,10 @@
+<div style="column-count: {{ len .Params }}; column-gap:10e0px;">
+    {{ range .Params }}
+    <div>
+        <audio controls="controls">
+            <source src="{{ index $.Page.Site.Data.audios . }}" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    {{ end }}
+</div>

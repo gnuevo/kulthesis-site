@@ -1,0 +1,7 @@
+<div style="column-count: {{ len .Params }}; column-gap:10e0px;">
+    {{ range .Params }}
+    <div style="font-weight: bold;">
+        {{ . }}
+    </div>
+    {{ end }}
+</div>
