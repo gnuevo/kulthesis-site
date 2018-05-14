@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baseline Experiments on My New Hugo Site</title>
+    <link>https://gnuevo.github.io/kulthesis-site/chapter06/</link>
+    <description>Recent content in Baseline Experiments on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 May 2018 12:38:21 +0900</lastBuildDate>
+    
+	<atom:link href="https://gnuevo.github.io/kulthesis-site/chapter06/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Loss function and custom loss function</title>
+      <link>https://gnuevo.github.io/kulthesis-site/chapter06/loss_function_issue/</link>
+      <pubDate>Sun, 13 May 2018 18:03:46 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/kulthesis-site/chapter06/loss_function_issue/</guid>
+      <description>Audios This is a dump of all the audios generated
+For the relu activation funciton
+   input_size code_size=100 code_size=200 code_size=400     1024  Your browser does not support the audio element.      Your browser does not support the audio element.      Your browser does not support the audio element.       2048  Your browser does not support the audio element.</description>
+    </item>
+    
+    <item>
+      <title>Baseline</title>
+      <link>https://gnuevo.github.io/kulthesis-site/chapter06/baseline/</link>
+      <pubDate>Sun, 13 May 2018 18:02:32 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/kulthesis-site/chapter06/baseline/</guid>
+      <description>Average of the output original  averaged  non-averaged    Your browser does not support the audio element.    Your browser does not support the audio element.    Your browser does not support the audio element.    relu vs tanh activations original  relu  tanh    Your browser does not support the audio element.    Your browser does not support the audio element.</description>
+    </item>
+    
+  </channel>
+</rss>
