@@ -1,7 +1,7 @@
 ---
 title: "Loss function and custom loss function"
 date: 2018-05-13T18:03:46+09:00
-draft: true
+draft: false
 ---
 
 ## Audios
