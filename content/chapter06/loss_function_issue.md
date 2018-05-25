@@ -8,22 +8,22 @@ draft: false
 
 This is a dump of all the audios generated
 
-**For the relu activation funciton**
+**For the relu activation function**
 
 | input_size | code_size=100 | code_size=200 | code_size=400 |
 |----|----------|---------------------|---------------------|
-| 1024 | {{< audio baseline500_relu_1024_100 >}} | {{< audio baseline500_relu_1024_200 >}} | {{< audio baseline500_relu_1024_400 >}} |
-| 2048 | {{< audio baseline500_relu_2048_100 >}} | {{< audio baseline500_relu_2048_200 >}} | {{< audio baseline500_relu_2048_400 >}} |
-| 4096 | {{< audio baseline500_relu_4096_100 >}} | {{< audio baseline500_relu_4096_200 >}} | {{< audio baseline500_relu_4096_400 >}} |
+| 1024 | {{< audio "chapter6_500/relu_1024_100" >}} | {{< audio "chapter6_500/relu_1024_200" >}} | {{< audio "chapter6_500/relu_1024_400" >}} |
+| 2048 | {{< audio "chapter6_500/relu_2048_100" >}} | {{< audio "chapter6_500/relu_2048_200" >}} | {{< audio "chapter6_500/relu_2048_400" >}} |
+| 4096 | {{< audio "chapter6_500/relu_4096_100" >}} | {{< audio "chapter6_500/relu_4096_200" >}} | {{< audio "chapter6_500/relu_4096_400" >}} |
 
 
 **For the tanh activation funciton**
 
 | input_size | code_size=100 | code_size=200 | code_size=400 |
 |----|----------|---------------------|---------------------|
-| 1024 | {{< audio baseline500_tanh_1024_100 >}} | {{< audio baseline500_tanh_1024_200 >}} | {{< audio baseline500_tanh_1024_400 >}} |
-| 2048 | {{< audio baseline500_tanh_2048_100 >}} | {{< audio baseline500_tanh_2048_200 >}} | {{< audio baseline500_tanh_2048_400 >}} |
-| 4096 | {{< audio baseline500_tanh_4096_100 >}} | {{< audio baseline500_tanh_4096_200 >}} | {{< audio baseline500_tanh_4096_400 >}} |
+| 1024 | {{< audio "chapter6_500/tanh_1024_100" >}} | {{< audio "chapter6_500/tanh_1024_200" >}} | {{< audio "chapter6_500/tanh_1024_400" >}} |
+| 2048 | {{< audio "chapter6_500/tanh_2048_100" >}} | {{< audio "chapter6_500/tanh_2048_200" >}} | {{< audio "chapter6_500/tanh_2048_400" >}} |
+| 4096 | {{< audio "chapter6_500/tanh_4096_100" >}} | {{< audio "chapter6_500/tanh_4096_200" >}} | {{< audio "chapter6_500/tanh_4096_400" >}} |
 
 
 ## Vanishing of the output
@@ -36,5 +36,5 @@ However, the numerical error measure is sometimes smaller for _relu_ rather than
 
 | activation | code_size=100 | code_size=200 | code_size=400 |
 |----|----------|---------------------|---------------------|
-| _relu_ activation | {{< audio baseline500_relu_4096_100 >}} | {{< audio baseline500_relu_4096_200 >}} | {{< audio baseline500_relu_4096_400 >}} |
-| _tanh_ activation | {{< audio baseline500_tanh_4096_100 >}} | {{< audio baseline500_tanh_4096_200 >}} | {{< audio baseline500_tanh_4096_400 >}} |
+| _relu_ activation | {{< audio "chapter6_500/relu_4096_100" >}} | {{< audio "chapter6_500/relu_4096_200" >}} | {{< audio "chapter6_500/relu_4096_400" >}} |
+| _tanh_ activation | {{< audio "chapter6_500/tanh_4096_100" >}} | {{< audio "chapter6_500/tanh_4096_200" >}} | {{< audio "chapter6_500/tanh_4096_400" >}} |
