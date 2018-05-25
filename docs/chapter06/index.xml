@@ -18,7 +18,7 @@
       
       <guid>https://gnuevo.github.io/kulthesis-site/chapter06/loss_function_issue/</guid>
       <description>Audios This is a dump of all the audios generated
-For the relu activation funciton
+For the relu activation function
    input_size code_size=100 code_size=200 code_size=400     1024  Your browser does not support the audio element.      Your browser does not support the audio element.      Your browser does not support the audio element.       2048  Your browser does not support the audio element.</description>
     </item>
     
@@ -28,7 +28,8 @@ For the relu activation funciton
       <pubDate>Sun, 13 May 2018 18:02:32 +0900</pubDate>
       
       <guid>https://gnuevo.github.io/kulthesis-site/chapter06/baseline/</guid>
-      <description>Average of the output original  averaged  non-averaged    Your browser does not support the audio element.    Your browser does not support the audio element.    Your browser does not support the audio element.    relu vs tanh activations original  relu  tanh    Your browser does not support the audio element.    Your browser does not support the audio element.</description>
+      <description>Chapter 6 Audios from experiments in chapter 6.
+Average of the output original  averaged  non-averaged    Your browser does not support the audio element.    Your browser does not support the audio element.    Your browser does not support the audio element.    relu vs tanh activations original  relu  tanh    Your browser does not support the audio element.</description>
     </item>
     
   </channel>
