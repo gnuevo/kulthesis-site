@@ -29,7 +29,8 @@ For the relu activation function
       
       <guid>https://gnuevo.github.io/kulthesis-site/chapter06/baseline/</guid>
       <description>Chapter 6 Audios from experiments in chapter 6.
-Average of the output original  averaged  non-averaged    Your browser does not support the audio element.    Your browser does not support the audio element.    Your browser does not support the audio element.    relu vs tanh activations original  relu  tanh    Your browser does not support the audio element.</description>
+Average of the output original  averaged  non-averaged          relu vs tanh activations Comparison of relu and tanh for input_size=1024; hidden_size=100.
+original  relu  tanh          Different input and code sizes    input_size code_size=100 code_size=200 code_size=400     1024               2048               4096                Spurious frequencies Custom loss function We apply the loss function over the arquitectures with</description>
     </item>
     
   </channel>
