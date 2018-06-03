@@ -12,22 +12,24 @@ Audios from experiments in chapter 6.
 ## Average of the output
 
 {{< titles "original" "averaged" "non-averaged" >}}
-{{< audio original "chapter6/averaged" "chapter6/non_averaged" >}}
+{{< soundcloud "original" "averaged" "non_averaged" >}}
 
 
 ## relu vs tanh activations
 
+Comparison of _relu_ and _tanh_ for `input_size=1024; hidden_size=100`.
+
 {{< titles "original" "relu" "tanh" >}}
-{{< audio original "chapter6/relu" "chapter6/tanh" >}}
+{{< soundcloud original "relu_1024_100" "tanh_1024_100" >}}
 
 
 ## Different input and code sizes
 
 | input_size | code_size=100 | code_size=200 | code_size=400 |
 |----|----------|---------------------|---------------------|
-| 1024 | {{< audio "chapter6/tanh_1024_100" >}} | {{< audio "chapter6/tanh_1024_200" >}} | {{< audio "chapter6/tanh_1024_400" >}} |
-| 2048 | {{< audio "chapter6/tanh_2048_100" >}} | {{< audio "chapter6/tanh_2048_200" >}} | {{< audio "chapter6/tanh_2048_400" >}} |
-| 4096 | {{< audio "chapter6/tanh_4096_100" >}} | {{< audio "chapter6/tanh_4096_200" >}} | {{< audio "chapter6/tanh_4096_400" >}} |
+| 1024 | {{< soundcloud "tanh_1024_100" >}} | {{< soundcloud "tanh_1024_200" >}} | {{< soundcloud "tanh_1024_400" >}} |
+| 2048 | {{< soundcloud "tanh_2048_100" >}} | {{< soundcloud "tanh_2048_200" >}} | {{< soundcloud "tanh_2048_400" >}} |
+| 4096 | {{< soundcloud "tanh_4096_100" >}} | {{< soundcloud "tanh_4096_200" >}} | {{< soundcloud "tanh_4096_400" >}} |
 
 ## Spurious frequencies
 
@@ -46,9 +48,9 @@ to standard loss function; `param=0.1`; and `param=0.3`.
 
 | size | param=0.0 | param=0.1 | param=0.3 |
 |----|----------|---------------------|---------------------|
-| 1024_200 | {{< audio "chapter6/tanh_1024_200" >}} | {{< audio "chapter6/tanh_weight01_1024_200" >}} | {{< audio "chapter6/tanh_weight03_1024_200" >}} |
-| 2048_200 | {{< audio "chapter6/tanh_2048_200" >}} | {{< audio "chapter6/tanh_weight01_2048_200" >}} | {{< audio "chapter6/tanh_weight03_2048_200" >}} |
-| 4096_200 | {{< audio "chapter6/tanh_4096_200" >}} | {{< audio "chapter6/tanh_weight01_4096_200" >}} | {{< audio "chapter6/tanh_weight03_4096_200" >}} |
+| 1024_200 | {{< soundcloud "tanh_1024_200" >}} | {{< soundcloud "tanh_weight01_1024_200" >}} | {{< soundcloud "tanh_weight03_1024_200" >}} |
+| 2048_200 | {{< soundcloud "tanh_2048_200" >}} | {{< soundcloud "tanh_weight01_2048_200" >}} | {{< soundcloud "tanh_weight03_2048_200" >}} |
+| 4096_200 | {{< soundcloud "tanh_4096_200" >}} | {{< soundcloud "tanh_weight01_4096_200" >}} | {{< soundcloud "tanh_weight03_4096_200" >}} |
 
 
 ## Quantisation
@@ -57,9 +59,9 @@ We use linear quantisation and mu-law.
 
 | size | original | linear quantisation | mu-law quantisation |
 |----|----------|---------------------|---------------------|
-| 1024_200 | {{< audio "chapter6/tanh_1024_200" >}} | {{< audio "chapter6/tanh_linear_1024_200" >}} | {{< audio "chapter6/tanh_mu_1024_200" >}} |
-| 2048_200 | {{< audio "chapter6/tanh_2048_200" >}} | {{< audio "chapter6/tanh_linear_2048_200" >}} | {{< audio "chapter6/tanh_mu_2048_200" >}} |
-| 4096_200 | {{< audio "chapter6/tanh_4096_200" >}} | {{< audio "chapter6/tanh_linear_4096_200" >}} | {{< audio "chapter6/tanh_mu_4096_200" >}} |
+| 1024_200 | {{< soundcloud "tanh_1024_200" >}} | {{< soundcloud "tanh_linear_1024_200" >}} | {{< soundcloud "tanh_mu_1024_200" >}} |
+| 2048_200 | {{< soundcloud "tanh_2048_200" >}} | {{< soundcloud "tanh_linear_2048_200" >}} | {{< soundcloud "tanh_mu_2048_200" >}} |
+| 4096_200 | {{< soundcloud "tanh_4096_200" >}} | {{< soundcloud "tanh_linear_4096_200" >}} | {{< soundcloud "tanh_mu_4096_200" >}} |
 
 
 ## Other instruments
