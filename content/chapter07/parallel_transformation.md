@@ -1,7 +1,7 @@
 ---
 title: "Parallel_transformation"
 date: 2018-06-04T22:58:04+09:00
-draft: true
+draft: false
 ---
 
 ## Parallel transformation: 1024 512 128

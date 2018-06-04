@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/kulthesis-site/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/kulthesis-site/images/favicon.png" type="image/x-icon" />
-    <title>Baseline :: Texture transfer master thesis</title>
+    <title>Parallel_transformation :: Texture transfer master thesis</title>
     
     
     <link href="/kulthesis-site/css/nucleus.css?1528150807" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/kulthesis-site/chapter06/baseline/">
+  <body class="" data-url="/kulthesis-site/chapter07/parallel_transformation/">
     <nav id="sidebar" class="">
 
 
@@ -91,7 +91,7 @@
   
     
     <li data-nav-id="/kulthesis-site/chapter06/" title="Baseline Experiments" class="dd-item 
-        parent
+        
         
         
         ">
@@ -134,7 +134,7 @@
  
   
     
-      <li data-nav-id="/kulthesis-site/chapter06/baseline/" title="Baseline" class="dd-item active">
+      <li data-nav-id="/kulthesis-site/chapter06/baseline/" title="Baseline" class="dd-item ">
         <a href="/kulthesis-site/chapter06/baseline/">
         Baseline
         
@@ -161,7 +161,7 @@
   
     
     <li data-nav-id="/kulthesis-site/chapter07/" title="Deep autoencoder" class="dd-item 
-        
+        parent
         
         
         ">
@@ -185,7 +185,7 @@
  
   
     
-      <li data-nav-id="/kulthesis-site/chapter07/parallel_transformation/" title="Parallel_transformation" class="dd-item ">
+      <li data-nav-id="/kulthesis-site/chapter07/parallel_transformation/" title="Parallel_transformation" class="dd-item active">
         <a href="/kulthesis-site/chapter07/parallel_transformation/">
         Parallel_transformation
         
@@ -322,7 +322,7 @@
             
           
           
-            <a href='/kulthesis-site/'>Deep autoencoder</a> > <a href='/kulthesis-site/chapter06/'>Baseline Experiments</a> > Baseline
+            <a href='/kulthesis-site/'>Deep autoencoder</a> > <a href='/kulthesis-site/chapter07/'>Deep autoencoder</a> > Parallel_transformation
           
          
           
@@ -338,17 +338,10 @@
 <ul>
 <li>
 <ul>
-<li>
-<ul>
-<li><a href="#chapter-6">Chapter 6</a></li>
-</ul></li>
-<li><a href="#average-of-the-output">Average of the output</a></li>
-<li><a href="#relu-vs-tanh-activations">relu vs tanh activations</a></li>
-<li><a href="#different-input-and-code-sizes">Different input and code sizes</a></li>
-<li><a href="#spurious-frequencies">Spurious frequencies</a></li>
-<li><a href="#custom-loss-function">Custom loss function</a></li>
-<li><a href="#quantisation">Quantisation</a></li>
-<li><a href="#other-instruments">Other instruments</a></li>
+<li><a href="#parallel-transformation-1024-512-128">Parallel transformation: 1024 512 128</a></li>
+<li><a href="#parallel-transformation-2048-1024-256">Parallel transformation: 2048 1024 256</a></li>
+<li><a href="#parallel-transformation-1024-512-256-128">Parallel transformation: 1024 512 256 128</a></li>
+<li><a href="#parallel-transformation-2048-1024-512-256">Parallel transformation: 2048 1024 512 256</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -363,7 +356,7 @@
         
         <div id="body-inner">
           
-            <h1>Baseline</h1>
+            <h1>Parallel_transformation</h1>
           
 
         
@@ -371,394 +364,177 @@
 
 
 
-<h3 id="chapter-6">Chapter 6</h3>
+<h2 id="parallel-transformation-1024-512-128">Parallel transformation: 1024 512 128</h2>
 
-<p>Audios from experiments in chapter 6.</p>
-
-<h2 id="average-of-the-output">Average of the output</h2>
-
-<p><div style="column-count: 3; column-gap:10e0px;">
+<p><div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        original
+        piano2piano
     </div>
     
     <div style="font-weight: bold;">
-        averaged
+        piano2violin
     </div>
     
     <div style="font-weight: bold;">
-        non-averaged
+        violin2piano
+    </div>
+    
+    <div style="font-weight: bold;">
+        violin2violin
     </div>
     
 </div>
 
-<div style="column-count: 3; column-gap:10e0px;">
+<div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084315"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796122"></iframe>
     </div>
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084324"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796113"></iframe>
     </div>
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084321"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796107"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796098"></iframe>
     </div>
     
 </div>
 </p>
 
-<h2 id="relu-vs-tanh-activations">relu vs tanh activations</h2>
+<h2 id="parallel-transformation-2048-1024-256">Parallel transformation: 2048 1024 256</h2>
 
-<p>Comparison of <em>relu</em> and <em>tanh</em> for <code>input_size=1024; hidden_size=100</code>.</p>
-
-<p><div style="column-count: 3; column-gap:10e0px;">
+<p><div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        original
+        piano2piano
     </div>
     
     <div style="font-weight: bold;">
-        relu
+        piano2violin
     </div>
     
     <div style="font-weight: bold;">
-        tanh
+        violin2piano
+    </div>
+    
+    <div style="font-weight: bold;">
+        violin2violin
     </div>
     
 </div>
 
-<div style="column-count: 3; column-gap:10e0px;">
+<div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084315"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796053"></iframe>
     </div>
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084300"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796044"></iframe>
     </div>
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084294"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796038"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796032"></iframe>
     </div>
     
 </div>
 </p>
 
-<h2 id="different-input-and-code-sizes">Different input and code sizes</h2>
+<h2 id="parallel-transformation-1024-512-256-128">Parallel transformation: 1024 512 256 128</h2>
 
-<table>
-<thead>
-<tr>
-<th>input_size</th>
-<th>code_size=100</th>
-<th>code_size=200</th>
-<th>code_size=400</th>
-</tr>
-</thead>
+<p><div style="column-count: 4; column-gap:10e0px;">
+    
+    <div style="font-weight: bold;">
+        piano2piano
+    </div>
+    
+    <div style="font-weight: bold;">
+        piano2violin
+    </div>
+    
+    <div style="font-weight: bold;">
+        violin2piano
+    </div>
+    
+    <div style="font-weight: bold;">
+        violin2violin
+    </div>
+    
+</div>
 
-<tbody>
-<tr>
-<td>1024</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
+<div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084294"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796089"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796083"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796074"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796062"></iframe>
     </div>
     
 </div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084291"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084285"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
+</p>
 
-<tr>
-<td>2048</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084276"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084273"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084285"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
+<h2 id="parallel-transformation-2048-1024-512-256">Parallel transformation: 2048 1024 512 256</h2>
 
-<tr>
-<td>4096</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
+<p><div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084261"></iframe>
+        piano2piano
+    </div>
+    
+    <div style="font-weight: bold;">
+        piano2violin
+    </div>
+    
+    <div style="font-weight: bold;">
+        violin2piano
+    </div>
+    
+    <div style="font-weight: bold;">
+        violin2violin
     </div>
     
 </div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084255"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084252"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-</tbody>
-</table>
 
-<h2 id="spurious-frequencies">Spurious frequencies</h2>
-
-<h2 id="custom-loss-function">Custom loss function</h2>
-
-<p>We apply the loss function over the arquitectures with</p>
-
-<pre><code>input_size = [1024, 2048, 4096]
-code_size = 200
-activation = &quot;tanh&quot;
-</code></pre>
-
-<p>Results are shown below for the parameter of the loss equal to: <code>param=0</code>, equivalent
-to standard loss function; <code>param=0.1</code>; and <code>param=0.3</code>.</p>
-
-<table>
-<thead>
-<tr>
-<th>size</th>
-<th>param=0.0</th>
-<th>param=0.1</th>
-<th>param=0.3</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>1024_200</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
+<div style="column-count: 4; column-gap:10e0px;">
     
     <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084291"></iframe>
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796026"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796014"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453795999"></iframe>
+    </div>
+    
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453795993"></iframe>
     </div>
     
 </div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084204"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084192"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>2048_200</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084273"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084201"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084189"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>4096_200</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084255"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084198"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084183"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="quantisation">Quantisation</h2>
-
-<p>We use linear quantisation and mu-law.</p>
-
-<table>
-<thead>
-<tr>
-<th>size</th>
-<th>original</th>
-<th>linear quantisation</th>
-<th>mu-law quantisation</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>1024_200</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084291"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084246"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084225"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>2048_200</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084273"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084240"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084222"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>4096_200</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084255"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084237"></iframe>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div style="font-weight: bold;">
-        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453084219"></iframe>
-    </div>
-    
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="other-instruments">Other instruments</h2>
+</p>
 
 
 <footer class=" footline" >
@@ -797,59 +573,6 @@ to standard loss function; <code>param=0.1</code>; and <code>param=0.3</code>.</
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                         
                         
                     
@@ -901,6 +624,59 @@ to standard loss function; <code>param=0.1</code>; and <code>param=0.3</code>.</
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
                 
                 
 
@@ -935,10 +711,10 @@ to standard loss function; <code>param=0.1</code>; and <code>param=0.3</code>.</
 
 
         
-            <a class="nav nav-prev" href="/kulthesis-site/chapter06/loss_function_issue/" title="Loss function and custom loss function"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/kulthesis-site/chapter07/" title="Deep autoencoder"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/kulthesis-site/chapter07/" title="Deep autoencoder" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/kulthesis-site/chapter07/direct_transformation/" title="Direct_transformation" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 

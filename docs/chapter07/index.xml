@@ -11,5 +11,24 @@
 	<atom:link href="https://gnuevo.github.io/kulthesis-site/chapter07/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Parallel_transformation</title>
+      <link>https://gnuevo.github.io/kulthesis-site/chapter07/parallel_transformation/</link>
+      <pubDate>Mon, 04 Jun 2018 22:58:04 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/kulthesis-site/chapter07/parallel_transformation/</guid>
+      <description> Parallel transformation: 1024 512 128 piano2piano  piano2violin  violin2piano  violin2violin            Parallel transformation: 2048 1024 256 piano2piano  piano2violin  violin2piano  violin2violin            Parallel transformation: 1024 512 256 128 piano2piano  piano2violin  violin2piano  violin2violin            Parallel transformation: 2048 1024 512 256 piano2piano  piano2violin  violin2piano  violin2violin            </description>
+    </item>
+    
+    <item>
+      <title>Direct_transformation</title>
+      <link>https://gnuevo.github.io/kulthesis-site/chapter07/direct_transformation/</link>
+      <pubDate>Mon, 04 Jun 2018 22:57:03 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/kulthesis-site/chapter07/direct_transformation/</guid>
+      <description> Chapter 7 Audios from experiments in chapter 7.
+Direct transformation: piano to violin Size of the network  Size of the network      1024_512_256_128 2048_1024_256                Direct transformation: violin to piano Size of the network  Size of the network      1024_512_256_128 2048_1024_256                </description>
+    </item>
+    
   </channel>
 </rss>

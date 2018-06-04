@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gnuevo.github.io/kulthesis-site/chapter07/parallel_transformation/</loc>
+    <lastmod>2018-06-04T22:58:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gnuevo.github.io/kulthesis-site/chapter07/direct_transformation/</loc>
+    <lastmod>2018-06-04T22:57:03+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gnuevo.github.io/kulthesis-site/chapter06/loss_function_issue/</loc>
     <lastmod>2018-05-13T18:03:46+09:00</lastmod>
   </url>
