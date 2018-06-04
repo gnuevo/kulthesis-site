@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="/kulthesis-site/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/kulthesis-site/images/favicon.png" type="image/x-icon" />
-    <title>Loss function and custom loss function :: Texture transfer master thesis</title>
+    <title>Deep autoencoder :: Texture transfer master thesis</title>
     
     
     <link href="/kulthesis-site/css/nucleus.css?1528119632" rel="stylesheet">
@@ -32,7 +32,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/kulthesis-site/chapter06/loss_function_issue/">
+  <body class="" data-url="/kulthesis-site/chapter07/">
     <nav id="sidebar" class="">
 
 
@@ -91,7 +91,7 @@
   
     
     <li data-nav-id="/kulthesis-site/chapter06/" title="Baseline Experiments" class="dd-item 
-        parent
+        
         
         
         ">
@@ -115,7 +115,7 @@
  
   
     
-      <li data-nav-id="/kulthesis-site/chapter06/loss_function_issue/" title="Loss function and custom loss function" class="dd-item active">
+      <li data-nav-id="/kulthesis-site/chapter06/loss_function_issue/" title="Loss function and custom loss function" class="dd-item ">
         <a href="/kulthesis-site/chapter06/loss_function_issue/">
         Loss function and custom loss function
         
@@ -161,8 +161,8 @@
   
     
     <li data-nav-id="/kulthesis-site/chapter07/" title="Deep autoencoder" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/kulthesis-site/chapter07/">
@@ -270,13 +270,7 @@
             
           
           
-            
-            
-          
-          
-            <a href='/kulthesis-site/'>Deep autoencoder</a> > <a href='/kulthesis-site/chapter06/'>Baseline Experiments</a> > Loss function and custom loss function
-          
-         
+            <a href='/kulthesis-site/'>Deep autoencoder</a> > Deep autoencoder
           
          
           
@@ -290,8 +284,12 @@
 <ul>
 <li>
 <ul>
-<li><a href="#audios">Audios</a></li>
-<li><a href="#vanishing-of-the-output">Vanishing of the output</a></li>
+<li>
+<ul>
+<li><a href="#chapter-7">Chapter 7</a></li>
+</ul></li>
+<li><a href="#direct-transformation-piano-to-violin">Direct transformation: piano to violin</a></li>
+<li><a href="#direct-transformation-violin-to-piano">Direct transformation: violin to piano</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -306,7 +304,7 @@
         
         <div id="body-inner">
           
-            <h1>Loss function and custom loss function</h1>
+            <h1>Deep autoencoder</h1>
           
 
         
@@ -314,128 +312,47 @@
 
 
 
-<h2 id="audios">Audios</h2>
+<h3 id="chapter-7">Chapter 7</h3>
 
-<p>This is a dump of all the audios generated</p>
+<p>Audios from experiments in chapter 7.</p>
 
-<p><strong>For the relu activation function</strong></p>
+<h2 id="direct-transformation-piano-to-violin">Direct transformation: piano to violin</h2>
+
+<div style="column-count: 2; column-gap:10e0px;">
+    
+    <div style="font-weight: bold;">
+        Size of the network
+    </div>
+    
+    <div style="font-weight: bold;">
+        Size of the network
+    </div>
+    
+</div>
+
 
 <table>
 <thead>
 <tr>
-<th>input_size</th>
-<th>code_size=100</th>
-<th>code_size=200</th>
-<th>code_size=400</th>
+<th>1024_512_256_128</th>
+<th>2048_1024_256</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>1024</td>
 <td><div style="column-count: 1; column-gap:10e0px;">
     
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_1024_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567150"></iframe>
     </div>
     
 </div>
 </td>
 <td><div style="column-count: 1; column-gap:10e0px;">
     
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_1024_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_1024_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>2048</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_2048_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_2048_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_2048_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>4096</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_4096_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_4096_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_4096_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567141"></iframe>
     </div>
     
 </div>
@@ -444,219 +361,43 @@
 </tbody>
 </table>
 
-<p><strong>For the tanh activation funciton</strong></p>
+<h2 id="direct-transformation-violin-to-piano">Direct transformation: violin to piano</h2>
+
+<div style="column-count: 2; column-gap:10e0px;">
+    
+    <div style="font-weight: bold;">
+        Size of the network
+    </div>
+    
+    <div style="font-weight: bold;">
+        Size of the network
+    </div>
+    
+</div>
+
 
 <table>
 <thead>
 <tr>
-<th>input_size</th>
-<th>code_size=100</th>
-<th>code_size=200</th>
-<th>code_size=400</th>
+<th>1024_512_256_128</th>
+<th>2048_1024_256</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td>1024</td>
 <td><div style="column-count: 1; column-gap:10e0px;">
     
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_1024_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567144"></iframe>
     </div>
     
 </div>
 </td>
 <td><div style="column-count: 1; column-gap:10e0px;">
     
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_1024_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_1024_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>2048</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_2048_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_2048_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_2048_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td>4096</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_4096_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_4096_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_4096_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="vanishing-of-the-output">Vanishing of the output</h2>
-
-<p>As explained in the document, output for <em>relu</em> vanishes for big input sizes.
-This doesn&rsquo;t have for <em>tanh</em> activations.
-However, the numerical error measure is sometimes smaller for <em>relu</em> rather than for <em>tanh</em>.</p>
-
-<p><strong>Results for <code>input_size=4096</code></strong></p>
-
-<table>
-<thead>
-<tr>
-<th>activation</th>
-<th>code_size=100</th>
-<th>code_size=200</th>
-<th>code_size=400</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td><em>relu</em> activation</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_4096_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_4096_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/relu_4096_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-</tr>
-
-<tr>
-<td><em>tanh</em> activation</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_4096_100.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_4096_200.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    
-</div>
-</td>
-<td><div style="column-count: 1; column-gap:10e0px;">
-    
-    <div>
-        <audio controls="controls">
-            <source src="https://media.githubusercontent.com/media/gnuevo/kulthesis-site/master/static/audio/chapter6_500/tanh_4096_400.mp3" type="audio/mpeg" />
-            Your browser does not support the audio element.
-        </audio>
+    <div style="font-weight: bold;">
+        <iframe width="100%" height="110" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567135"></iframe>
     </div>
     
 </div>
@@ -669,7 +410,6 @@ However, the numerical error measure is sometimes smaller for <em>relu</em> rath
 <footer class=" footline" >
 	
 </footer>
-
 
         
         </div> 
@@ -702,6 +442,8 @@ However, the numerical error measure is sometimes smaller for <em>relu</em> rath
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -710,6 +452,41 @@ However, the numerical error measure is sometimes smaller for <em>relu</em> rath
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
                     
                         
             
@@ -744,41 +521,6 @@ However, the numerical error measure is sometimes smaller for <em>relu</em> rath
                     
 
                     
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
             
             
@@ -805,10 +547,10 @@ However, the numerical error measure is sometimes smaller for <em>relu</em> rath
 
 
         
-            <a class="nav nav-prev" href="/kulthesis-site/chapter06/" title="Baseline Experiments"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/kulthesis-site/chapter06/baseline/" title="Baseline"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/kulthesis-site/chapter06/baseline/" title="Baseline" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/kulthesis-site/chapter01/" title="1. Introduction" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -838,4 +580,3 @@ However, the numerical error measure is sometimes smaller for <em>relu</em> rath
 
   </body>
 </html>
-

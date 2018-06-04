@@ -1,7 +1,7 @@
 baseURL = "https://gnuevo.github.io/kulthesis-site/"
 publishDir = "docs"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Texture transfer master thesis"
 theme = "hugo-theme-learn"
 disableInlineCopyToClipBoard = true
 disableShortcutsTitle = true
