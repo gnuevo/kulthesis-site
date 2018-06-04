@@ -55,3 +55,10 @@ baseline500_relu_2048_400 = "https://w.soundcloud.com/player/?url=https%3A//api.
 baseline500_relu_4096_100 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095469"
 baseline500_relu_4096_200 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095460"
 baseline500_relu_4096_400 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095445"
+
+
+## Deep autoencoder
+1024_512_256_128_pv = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567150"
+1024_512_256_128_vp = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567144"
+2048_1024_256_pv = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567141"
+2048_1024_256_vp = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567135"
