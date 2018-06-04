@@ -62,3 +62,22 @@ baseline500_relu_4096_400 = "https://w.soundcloud.com/player/?url=https%3A//api.
 1024_512_256_128_vp = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567144"
 2048_1024_256_pv = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567141"
 2048_1024_256_vp = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453567135"
+
+
+## parallel transformation
+1024_512_128_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796122"
+1024_512_128_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796113"
+1024_512_128_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796107"
+1024_512_128_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796098"
+1024_512_256_128_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796089"
+1024_512_256_128_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796083"
+1024_512_256_128_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796074"
+1024_512_256_128_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796062"
+2048_1024_256_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796053"
+2048_1024_256_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796044"
+2048_1024_256_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796038"
+2048_1024_256_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796032"
+2048_1024_512_256_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796026"
+2048_1024_512_256_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796014"
+2048_1024_512_256_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453795999"
+2048_1024_512_256_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453795993"
