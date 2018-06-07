@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gnuevo.github.io/kulthesis-site/chapter08/conv_autoencoder/</loc>
+    <lastmod>2018-06-08T07:00:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gnuevo.github.io/kulthesis-site/chapter08/</loc>
+    <lastmod>2018-06-08T06:59:12+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gnuevo.github.io/kulthesis-site/chapter07/parallel_transformation/</loc>
     <lastmod>2018-06-04T22:58:04+09:00</lastmod>
   </url>

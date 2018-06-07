@@ -64,4 +64,27 @@ We use linear quantisation and mu-law.
 | 4096_200 | {{< soundcloud "tanh_4096_200" >}} | {{< soundcloud "tanh_linear_4096_200" >}} | {{< soundcloud "tanh_mu_4096_200" >}} |
 
 
+## Vanishing of the output
+
+As explained in the document, output for _relu_ vanishes for big input sizes.
+This doesn't have for _tanh_ activations.
+However, the numerical error measure is sometimes smaller for _relu_ rather than for _tanh_.
+
+
+### Relu totally distorts the output
+
+| code_size=200 | input_size=1024 | input_size=2048 | input_size=4096 |
+|----|----------|---------------------|---------------------|
+| _relu_ activation | {{< soundcloud "baseline500_relu_1024_200" >}} | {{< soundcloud "baseline500_relu_2048_200" >}} | {{< soundcloud "baseline500_relu_4096_200" >}} |
+
+### Vanishing of the output
+
+**Results for `input_size=4096`**
+For this size of the input, _relu_ completely destroys the signal and outputs just silence.
+
+| activation | code_size=100 | code_size=200 | code_size=400 |
+|----|----------|---------------------|---------------------|
+| _relu_ activation | {{< soundcloud "baseline500_relu_4096_100" >}} | {{< soundcloud "baseline500_relu_4096_200" >}} | {{< soundcloud "baseline500_relu_4096_400" >}} |
+| _tanh_ activation | {{< soundcloud "baseline500_tanh_4096_100" >}} | {{< soundcloud "baseline500_tanh_4096_200" >}} | {{< soundcloud "baseline500_tanh_4096_400" >}} |
+
 ## Other instruments

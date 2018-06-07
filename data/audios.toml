@@ -42,7 +42,7 @@ baseline500_tanh_1024_400 = "https://w.soundcloud.com/player/?url=https%3A//api.
 baseline500_tanh_2048_100 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095409"
 baseline500_tanh_2048_200 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095406"
 baseline500_tanh_2048_400 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095403"
-baseline500_tanh_4096_100 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095397 "
+baseline500_tanh_4096_100 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095397"
 baseline500_tanh_4096_200 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095394"
 baseline500_tanh_4096_400 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453095388"
 
@@ -81,3 +81,20 @@ baseline500_relu_4096_400 = "https://w.soundcloud.com/player/?url=https%3A//api.
 2048_1024_512_256_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453796014"
 2048_1024_512_256_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453795999"
 2048_1024_512_256_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/453795993"
+
+
+## convolutional transformation
+1024_k4_5conv_dense64_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326200"
+1024_k4_5conv_dense64_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326194"
+1024_k4_5conv_dense64_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326191"
+1024_k4_5conv_dense64_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326185"
+
+1024_k4_conv5_vae64_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326164"
+1024_k4_conv5_vae64_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326152"
+1024_k4_conv5_vae64_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326143"
+1024_k4_conv5_vae64_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326134"
+
+1024_k4_5conv_vanilla_00 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326182"
+1024_k4_5conv_vanilla_01 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326179"
+1024_k4_5conv_vanilla_10 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326173"
+1024_k4_5conv_vanilla_11 = "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/455326167"

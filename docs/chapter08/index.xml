@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Convolutional autoencoder on Texture transfer master thesis</title>
+    <link>https://gnuevo.github.io/kulthesis-site/chapter08/</link>
+    <description>Recent content in Convolutional autoencoder on Texture transfer master thesis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Jun 2018 06:59:12 +0900</lastBuildDate>
+    
+	<atom:link href="https://gnuevo.github.io/kulthesis-site/chapter08/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Convolutional autoencoder</title>
+      <link>https://gnuevo.github.io/kulthesis-site/chapter08/conv_autoencoder/</link>
+      <pubDate>Fri, 08 Jun 2018 07:00:33 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/kulthesis-site/chapter08/conv_autoencoder/</guid>
+      <description> Experiments with the convolutional autoencoder Baseline input_size=1024, K=4
+piano2piano  piano2violin  violin2piano  violin2violin            Baseline with dense core piano2piano  piano2violin  violin2piano  violin2violin            Baseline with variational core piano2piano  piano2violin  violin2piano  violin2violin            </description>
+    </item>
+    
+  </channel>
+</rss>

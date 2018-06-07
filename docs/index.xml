@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Convolutional autoencoder</title>
+      <link>https://gnuevo.github.io/kulthesis-site/chapter08/conv_autoencoder/</link>
+      <pubDate>Fri, 08 Jun 2018 07:00:33 +0900</pubDate>
+      
+      <guid>https://gnuevo.github.io/kulthesis-site/chapter08/conv_autoencoder/</guid>
+      <description> Experiments with the convolutional autoencoder Baseline input_size=1024, K=4
+piano2piano  piano2violin  violin2piano  violin2violin            Baseline with dense core piano2piano  piano2violin  violin2piano  violin2violin            Baseline with variational core piano2piano  piano2violin  violin2piano  violin2violin            </description>
+    </item>
+    
+    <item>
       <title>Parallel_transformation</title>
       <link>https://gnuevo.github.io/kulthesis-site/chapter07/parallel_transformation/</link>
       <pubDate>Mon, 04 Jun 2018 22:58:04 +0900</pubDate>
